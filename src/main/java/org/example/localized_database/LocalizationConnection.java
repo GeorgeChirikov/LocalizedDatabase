@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class LocalizationConnection {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/localized_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "password";
+    private static final String DB_PASSWORD = "Password";
     private static int id = 0;
     private static Connection conn;
     private static String language;
